@@ -1,16 +1,24 @@
-# Job Board Automation
-This project is a Python-based automation tool for applying to job postings on a popular job board. Using Selenium and XPath, the tool navigates to a specified job posting and automatically fills out the application form with user-provided information.
+# Powershell (Admin)
+```
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope LocalMachine
+```
 
-## Requirements
-Python 3.x
-Selenium WebDriver
-Chrome or Firefox web browser
-XPath syntax knowledge
+# Chrome extention-Selector
+```
+https://chrome.google.com/webstore/detail/selectorgadget/mhjhnkcfbdhnjickkkdbjoemdmbfginb?hl=en
+```
 
-## Contributing
-Contributions are welcome! If you have any suggestions or improvements to make, feel free to open an issue or submit a pull request.
+# Chrome extention-Chro Path
+```
+https://chrome.google.com/webstore/detail/chropath/ljngjbnaijcbncmcnjfhigebomdlkcjo
+```
 
-## Acknowledgments
-Thanks to HiCounselor for the inspiration to create this automation tool.
+# 10 Useful Chrome Extention
+```
+https://www.geeksforgeeks.org/10-useful-chrome-extension-for-web-developers-and-designers/?ref=gcse
+```
 
-Thanks to the Python and Selenium communities for their helpful resources and documentation.
+## Monaco Editor
+````
+Coding Editor
+```
