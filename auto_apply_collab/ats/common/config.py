@@ -1,0 +1,18 @@
+import os
+
+IS_DEBUG = True
+ENV = "development"
+CURRENT_FOLDER = os.path.abspath(os.path.dirname(__file__))
+FAKE_APPLICATION = {
+    "first_name": "John",
+    "last_name": "Doe",
+    "phone": "8084385352",
+    "resume_path": f"{CURRENT_FOLDER}/data/fake_cv.pdf",
+    "cover_letter_text": "This is a cover letter",
+    "email": "test@gmail.com",
+}
+DUMMY_USER_CREDS = {
+    "template_cookies": r"""{"url": "https://www.ziprecruiter.com/authn/login", "data": [{"domain": ".ziprecruiter.com", "httpOnly": false, "name": "IR_gbd", "path": "/", "secure": false, "value": "ziprecruiter.com"}, {"domain": ".ziprecruiter.com", "expiry": 1678086166, "httpOnly": false, "name": "previously_registered_pop", "path": "/", "secure": false, "value": "c"}, {"domain": "www.ziprecruiter.com", "expiry": 1680678164, "httpOnly": false, "name": "first_page_view", "path": "/", "secure": false, "value": "first_page_view%3D%7B%22js_amazon%22%3A1%2C%22js_samsung%22%3A1%2C%22js_tv_scientific%22%3A1%2C%22js_artsai%22%3A1%2C%22js_data_plus_math%22%3A1%2C%22js_podsights%22%3A1%2C%22js_ott_tradr%22%3A1%7D"}, {"domain": "www.ziprecruiter.com", "expiry": 1680678164, "httpOnly": false, "name": "experian_campaign_visited", "path": "/", "secure": false, "value": "1"}, {"domain": ".ziprecruiter.com", "expiry": 1688454166, "httpOnly": true, "name": "ziprecruiter_session", "path": "/", "secure": true, "value": "071117307c71fba14eee0d893876bab6"}, {"domain": ".ziprecruiter.com", "expiry": 1707462167, "httpOnly": false, "name": "IR_PI", "path": "/", "secure": false, "value": "9aacd1b8-3c7c-3efe-8784-843aa5c08d7d%7C1672988567408"}, {"domain": ".ziprecruiter.com", "expiry": 1675494161, "httpOnly": false, "name": "us_privacy", "path": "/", "secure": true, "value": "1YNN"}, {"domain": ".ziprecruiter.com", "expiry": 1707462160, "httpOnly": false, "name": "uspmeta", "path": "/", "sameSite": "Strict", "secure": false, "value": "%7B%22ce%22%3A1672902130%7D"}, {"domain": ".ziprecruiter.com", "expiry": 1707462160, "httpOnly": false, "name": "_swb", "path": "/", "secure": true, "value": "802c0c0f-00f4-463b-92c1-831f6d27c458"}, {"domain": ".ziprecruiter.com", "expiry": 1707462162, "httpOnly": false, "name": "zglobalid", "path": "/", "secure": false, "value": "d88acc25-28f5-41c4-852d-0464f192e0ec.5cefcd35e770.63b675f4"}, {"domain": ".ziprecruiter.com", "expiry": 1672903961, "httpOnly": true, "name": "__cf_bm", "path": "/", "secure": true, "value": "CZ7rcbcE2WJ5dn4GlRzNw4GRpTVLCXvnAp8hi.u9mxs-1672902131-0-AUySFGMEfQpTMjTq3I3OjznHXssz21FW/g7pjmQiytLN2KnemOjgOasx5+vfWJ3o1pfjvRzYOGAxkMNVA7ENZGPE/OZlY17pWUBrbGVbE+2L9btqnjX4kRNjwyvo5Wo0YMlS0N7rMf2o/zftGEbI5jfl68gqbPf3ZIWu24ZkLpOUobhvqarwjfQA+wkmr/5pQnmomvCOuuKrCCc1n4SRLPBMNmquZ5mu4m1j56IMertB"}, {"domain": ".ziprecruiter.com", "httpOnly": false, "name": "IR_10589", "path": "/", "secure": false, "value": "1672902167408%7C0%7C1672902167408%7C%7C"}, {"domain": ".ziprecruiter.com", "expiry": 1675494161, "httpOnly": false, "name": "usprivacy", "path": "/", "secure": true, "value": "1YNN"}, {"domain": ".ziprecruiter.com", "expiry": 1707462167, "httpOnly": true, "name": "ziprecruiter_browser", "path": "/", "secure": true, "value": "9159a544-3169-4f9c-b726-bb5b93e54f40"}, {"domain": ".ziprecruiter.com", "expiry": 1672903367, "httpOnly": false, "name": "zva", "path": "/", "secure": true, "value": "100000000%3Bvid%3AY7Z18Lm89UQ7KFug"}, {"domain": ".ziprecruiter.com", "expiry": 1680678167, "httpOnly": false, "name": "_gcl_au", "path": "/", "secure": false, "value": "1.1.370398276.1672902167"}, {"domain": "www.ziprecruiter.com", "expiry": 1672920153, "httpOnly": false, "name": "SAFESAVE_TOKEN", "path": "/", "secure": false, "value": "13d4501b36ae4d60e8d88deae9f57c156189c5c9"}]}""",
+}
+
+TRACEBACK_LIMIT = 10

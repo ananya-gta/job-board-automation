@@ -1,0 +1,33 @@
+[
+    {
+        "question_text": "We request the following information to help us make the best possible placement. You should complete all portions of this application that pertain to you. All information given will be held in strict confidence. Please make sure you fill out all the questions.\nNextivity is an equal opportunity employer\nAll applicants for employment are required to complete and submit this Application for Employment. Nextivity does not discriminate on the basis of sex, age, color, race, religion, marital status, national origin, ancestry, sexual orientation, physical & mental disability, medical condition, genetic information, veteran status, or any other basis protected by Federal, state or local law. (1 of 5)",
+        "xpath": {
+            "I understand": "//input[@id='530315309_0']"
+        },
+        "long_response": false,
+        "page": 1,
+        "type": "radio",
+        "answer": "I understand"
+    },
+    {
+        "question_text": "By applying to this position, I agree to isolved Applicant Tracking's Applicant Information Use Policy. Copy and paste this link into a new browser window to view https://admin.isolvedhire.com/applicant-privacy-policy/ (3 of 5)",
+        "xpath": {
+            "I understand": "//input[@id='530315313_0']"
+        },
+        "long_response": false,
+        "page": 3,
+        "type": "radio",
+        "answer": "I understand"
+    },
+    {
+        "question_text": "Please indicate if you agree to isolved Applicant Tracking's Applicant Communication Policy for receiving text messages. Copy and paste this link into a new browser window to view https://admin.isolvedhire.com/applicant-communication-policy/ (4 of 5)",
+        "xpath": {
+            "Yes, I agree to be contacted by text messages": "//input[@id='530315315_0']",
+            "No, I do not agree to receive text messages": "//input[@id='530315315_1']"
+        },
+        "long_response": false,
+        "page": 4,
+        "type": "radio",
+        "answer": "Yes, I agree to be contacted by text messages"
+    }
+]
